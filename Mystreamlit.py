@@ -1,6 +1,6 @@
 import streamlit as st
 st.image('./pic/01.jpg')
-col1,col2=st.column(2)
+col1,col2=st.columns(2)
 with col1 :
     st.header('ณัฐินันท์ เข็มทอง')
 with col2 :
